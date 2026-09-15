@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Enquiry | Rise Together Foundation</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,7 +18,6 @@
 
             <a href="index.html" class="logo">
             <img src="images/logo.png" alt="Rise Together Foundation Logo">
-                Rise Together Foundation
             </a>
 
             <!-- Navigation -->
@@ -40,49 +40,84 @@
     <!-- Main Content -->
     <main>
 
-        <section>
-            <h1>Make an Enquiry</h1>
+        <!-- Page Header -->
+        <section class="page-header">
 
-            <p>
-                Thank you for your interest in Rise Together Foundation.
-                Complete the form below if you would like more information
-                about volunteering, sponsorship or supporting our organisation.
-            </p>
+            <div class="container">
 
-            <form>
+                <h1>Make an Enquiry</h1>
 
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name">
+                <p>
+                    Thank you for your interest in Rise Together Foundation.
+                    We would love to hear from you about volunteering,
+                    sponsorship and community support.
+                </p>
 
-                <br><br>
+            </div>
 
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email">
+        </section>
 
-                <br><br>
 
-                <label for="enquiry-type">Enquiry Type:</label>
+        <!-- Enquiry Form -->
+        <section class="enquiry-section">
 
-                <select id="enquiry-type" name="enquiry-type">
-                    <option value="">Please select</option>
-                    <option value="volunteer">Volunteering</option>
-                    <option value="sponsor">Sponsorship</option>
-                    <option value="general">General Enquiry</option>
-                </select>
+            <div class="container">
 
-                <br><br>
+                <h2>Send Us a Message</h2>
 
-                <label for="message">Message:</label>
+                <form class="enquiry-form">
 
-                <br>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name">
+                    </div>
 
-                <textarea id="message" name="message" rows="6" cols="40"></textarea>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com">
+                    </div>
 
-                <br><br>
+                    <div class="form-group">
+                        <label for="enquiry-type">Enquiry Type</label>
+                        <select id="enquiry-type" name="enquiry-type">
+                            <option value="">Please select</option>
+                            <option value="volunteer">Volunteering</option>
+                            <option value="sponsor">Sponsorship</option>
+                            <option value="general">General Enquiry</option>
+                        </select>
+                    </div>
 
-                <button type="submit">Submit Enquiry</button>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us how we can help..."></textarea>
+                    </div>
 
-            </form>
+                    <button type="submit" class="btn primary-btn">Submit Enquiry</button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- Call To Action -->
+        <section class="call-to-action">
+
+            <div class="container">
+
+                <h2>Need a Quick Response?</h2>
+
+                <p>
+                    You can also contact us directly if you would like
+                    to speak with our team about donations or volunteering.
+                </p>
+
+                <a href="contact.html" class="btn primary-btn">
+                    Contact Us
+                </a>
+
+            </div>
 
         </section>
 
@@ -91,14 +126,18 @@
     <!-- Footer -->
     <footer>
 
-        <p>
-            &copy; 2026 Rise Together Foundation.
-            All rights reserved.
-        </p>
+        <div class="container">
 
-        <p>
-            Email: info@risetogetherfoundation.org
-        </p>
+            <p>
+                &copy; 2026 Rise Together Foundation.
+                All rights reserved.
+            </p>
+
+            <p>
+                Email: info@risetogetherfoundation.org
+            </p>
+
+        </div>
 
     </footer>
 
