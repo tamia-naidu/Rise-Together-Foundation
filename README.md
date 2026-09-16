@@ -163,6 +163,21 @@ CSS styling will be developed in Part 2 and JavaScript functionality will be dev
 - Updated GitHub repository. 
 
 ---
+## Evidence of Testing 
+### Desktop: 
+<img width="1182" height="727" alt="Screenshot 2026-09-16 172514" src="https://github.com/user-attachments/assets/c3f5c67b-2cfe-41c3-af57-b298830bf2f9" />
+<img width="1121" height="702" alt="Screenshot 2026-09-16 172553" src="https://github.com/user-attachments/assets/eb2a3fc5-dfb0-4872-9398-06d038bc70d8" />
+
+### Tablet:
+<img width="918" height="822" alt="Screenshot 2026-09-16 173144" src="https://github.com/user-attachments/assets/ab7ac8ed-b671-4c4f-9ca3-4ab856638a91" />
+<img width="935" height="800" alt="Screenshot 2026-09-16 173159" src="https://github.com/user-attachments/assets/70c02196-b088-445a-b6c9-5af88e11aecc" />
+
+## Small Mobile:
+<img width="867" height="898" alt="Screenshot 2026-09-16 173239" src="https://github.com/user-attachments/assets/dd05b708-64dd-4ad5-84f0-3e49007d0884" />
+<img width="896" height="893" alt="Screenshot 2026-09-16 173249" src="https://github.com/user-attachments/assets/becd7e44-bb9a-4684-be9f-d34a280761c0" />
+
+## Mobile:
+<img width="858" height="902" alt="Screenshot 2026-09-16 173303" src="https://github.com/user-attachments/assets/465ec85d-de45-4060-81d7-dbf11b65fcd3" />
 
 ## References
 
