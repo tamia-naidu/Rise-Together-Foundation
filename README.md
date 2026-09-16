@@ -186,6 +186,7 @@ CSS styling will be developed in Part 2 and JavaScript functionality will be dev
 - GitHub, 2026. GitHub. [online] Available at: <https://github.com/> [Accessed 19 August 2026]. 
 - Host Africa South Africa, 2026. How Much Does It Cost to Build a Website in South Africa? [online] Available at: 
 <https://hostafrica.co.za/blog/websites/website-basics/how-much-does-a-website-cost-in-south-africa/> [Accessed 19 August 2026].
+- Material Design, 2026. Understand typography. [online] Available at:<https://m2.material.io/design/typography/understanding-typography.html> 
 - Microsoft (2024) Microsoft Word. [online] Available at: <https://www.microsoft.com/en-za/microsoft-365/word> [Accessed 16 August 2026].
 - OpenAI (2026) ChatGPT. Version 5.6. [App]. Available at: <https://chatgpt.com> [Accessed 16 August 2026].
 - Pexels, 2026. Pexels. [online] Available at: <https://www.pexels.com/> [Accessed 19 August 2026]. 
@@ -193,5 +194,6 @@ CSS styling will be developed in Part 2 and JavaScript functionality will be dev
 [online] Available at: <https://www.savethechildren.org.za/news/protecting-children-requires-strong-safeguarding-systems-and-urgent-action-national-child> 
 [Accessed 19 August 2026]. 
 - Statistics South Africa, 2025. Poverty Trends in South Africa: An examination of absolute poverty between 2006 and 2023. [online] Available at: <https://www.statssa.gov.za/?p=19078> [Accessed 19 August 2026].
-- Visual Studio Code, 2026. Visual Studio Code. [online] Available at: <https://code.visualstudio.com/> [Accessed 19 August 2026]. 
+- Visual Studio Code, 2026. Visual Studio Code. [online] Available at: <https://code.visualstudio.com/> [Accessed 19 August 2026].
+- W3Schools, 2026. HTML Responsive Web Design. [online] Available at: <https://www.w3schools.com/html/html_responsive.asp> [Accessed 16 September 2026]. 
 - Western Cape Government, 2026. Non-Profit Organisation (NPO) information. [online] Available at: <https://www.westerncape.gov.za/service/non-profit-organisation-npo-information> [Accessed 19 August 2026].
