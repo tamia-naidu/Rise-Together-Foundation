@@ -150,7 +150,7 @@ CSS styling will be developed in Part 2 and JavaScript functionality will be dev
 - Created GitHub repository.
 - Added initial project files to GitHub.
 
-### Part 1 - Initial HTML Website
+### Part 2 - Styling The Website
 - Implemented the external CSS stylesheet. 
 - Added consistent typography.
 - Added the chosen website color scheme. 
