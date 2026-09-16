@@ -17,7 +17,10 @@
         <div class="container">
 
             <a href="index.html" class="logo">
-            <img src="images/logo.png" alt="Rise Together Foundation Logo">
+              <img src="images/logo.png"
+                 srcset="images/logo-180.png 180w, images/logo-360.png 360w"
+                  sizes="(max-width: 480px) 45vw, 180px"
+                  alt="Rise Together Foundation Logo">
             </a>
 
             <nav>
@@ -78,9 +81,15 @@
                     support while creating opportunities for people
                     to build a better future.
                 </p>
-                    <img src="images/community-outreach.jpg"
-                    alt="Community members participating in an initiative"
-                    class="feature-image">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="images/community-outreach-480.jpg">
+                        <source media="(min-width: 601px)" srcset="images/community-outreach-900.jpg">
+                        <img src="images/community-outreach.jpg"
+                             srcset="images/community-outreach-480.jpg 480w, images/community-outreach-900.jpg 900w"
+                             sizes="(max-width: 600px) 92vw, 760px"
+                             alt="Community members participating in an initiative"
+                             class="feature-image">
+                    </picture>
             </div>
 
         </section>

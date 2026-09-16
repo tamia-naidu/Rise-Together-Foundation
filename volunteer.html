@@ -17,7 +17,10 @@
         <div class="container">
 
             <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="Rise Together Foundation Logo">
+                 <img src="images/logo.png"
+                     srcset="images/logo-180.png 180w, images/logo-360.png 360w"
+                     sizes="(max-width: 480px) 45vw, 180px"
+                     alt="Rise Together Foundation Logo">
             </a>
 
             <nav>
@@ -75,13 +78,25 @@
                     meet new people and make a meaningful difference
                     in the lives of others.
                 </p>
-                <img src="images/volunteers.jpg"
-                alt="Volunteers supporting the community"
-                class="feature-image">
+                 <picture>
+                    <source media="(max-width: 600px)" srcset="images/volunteers-480.jpg">
+                    <source media="(min-width: 601px)" srcset="images/volunteers-900.jpg">
+                    <img src="images/volunteers.jpg"
+                         srcset="images/volunteers-480.jpg 480w, images/volunteers-900.jpg 900w"
+                        sizes="(max-width: 600px) 92vw, 850px"
+                        alt="Volunteers supporting the community"
+                        class="feature-image">
+                 </picture>
 
-                <img src="images/food-support.jpg"
-                     alt="Food support initiative"
-                     class="feature-image">
+                 <picture>
+                    <source media="(max-width: 600px)" srcset="images/food-support-480.jpg">
+                    <source media="(min-width: 601px)" srcset="images/food-support-900.jpg">
+                    <img src="images/food-support.jpg"
+                         srcset="images/food-support-480.jpg 480w, images/food-support-900.jpg 900w"
+                        sizes="(max-width: 600px) 92vw, 850px"
+                        alt="Food support initiative"
+                        class="feature-image">
+                 </picture>
             </div>
 
         </section>
