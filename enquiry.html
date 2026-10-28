@@ -67,36 +67,56 @@
             <div class="container">
 
                 <h2>Send Us a Message</h2>
-
-                <form class="enquiry-form">
-
+                
+                <form id="enquiryForm"> 
                     <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your full name">
+                        <label for="enquiryName">Full name</label>
+                        <input
+                            type="text"
+                            id="enquiryName"
+                            name="name"
+                            required
+                            minlength="2"
+                            autocomplete="name"
+                        >
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" placeholder="you@example.com">
+                        <label for="enquiryEmail">Email address</label>
+                        <input
+                            type="email"
+                            id="enquiryEmail"
+                            name="email"
+                            required
+                            autocomplete="email"
+                        >
                     </div>
 
                     <div class="form-group">
-                        <label for="enquiry-type">Enquiry Type</label>
-                        <select id="enquiry-type" name="enquiry-type">
-                            <option value="">Please select</option>
-                            <option value="volunteer">Volunteering</option>
-                            <option value="sponsor">Sponsorship</option>
-                            <option value="general">General Enquiry</option>
+                        <label for="enquiryType">Type of enquiry</label>
+                        <select id="enquiryType" name="enquiryType" required>
+                            <option value="">Choose an option</option>
+                            <option value="volunteering">Volunteering</option>
+                            <option value="sponsorship">Sponsorship</option>
+                            <option value="programmes">Our programmes</option>
+                            <option value="donations">Donations</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6" placeholder="Tell us how we can help..."></textarea>
+                        <label for="enquiryMessage">Tell us about your enquiry</label>
+                        <textarea
+                            id="enquiryMessage"
+                            name="message"
+                            rows="5"
+                            minlength="10"
+                            required
+                        ></textarea>
                     </div>
 
-                    <button type="submit" class="btn primary-btn">Submit Enquiry</button>
-
+                    <button type="submit" class="btn primary-btn">
+                        Submit Enquiry
+                    </button>
                 </form>
 
             </div>
@@ -145,7 +165,7 @@
     </footer>
 
     <script src="js/script.js" defer></script>
-    
+
 </body>
 
 </html>

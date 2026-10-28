@@ -1104,4 +1104,130 @@ footer a:hover {
     .volunteer-form {
         padding: 20px;
     }
+
+
+/* =====================================================
+   PART 3 - JAVASCRIPT FEATURE STYLING
+===================================================== */
+
+/* Gallery search */
+
+#gallerySearch {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font: inherit;
+}
+
+#gallerySearch:focus {
+    outline: 2px solid #4CAF50;
+    outline-offset: 2px;
+}
+
+/* Does not display filtered-out items */
+
+.gallery-item[hidden] {
+    display: none;
+}
+
+/* Image lightbox */
+
+#imageLightbox:not([hidden]) {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background: rgba(21, 42, 69, 0.95);
+}
+
+#imageLightbox figure {
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+#lightboxImage {
+    max-height: 75vh;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+#lightboxCaption {
+    margin-top: 12px;
+    color: #ffffff;
+}
+
+#closeLightbox {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    padding: 5px 12px;
+    background: #FFC107;
+    color: #1E3A5F;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Form feedback */
+
+.form-feedback {
+    margin-top: 15px;
+    padding: 12px;
+    background: #EAF4F4;
+    border-left: 4px solid #4CAF50;
+    overflow-wrap: anywhere;
+}
+
+/* FAQ  */
+
+.faq-question {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+    background: #1E3A5F;
+    color: #ffffff;
+    border: none;
+    text-align: left;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-question:hover,
+.faq-question:focus-visible {
+    background: #388E3C;
+    color: #ffffff;
+}
+
+.faq-answer {
+    padding: 15px;
+    background: #F3F7F5;
+}
+
+@media (max-width: 480px) {
+    #imageLightbox:not([hidden]) {
+        padding: 12px;
+    }
+
+    #lightboxImage {
+        max-height: 65vh;
+    }
+
+    #closeLightbox {
+        top: 10px;
+        right: 10px;
+    }
+}
+
 }
