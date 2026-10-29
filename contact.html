@@ -8,6 +8,8 @@
     <title>Contact | Rise Together Foundation</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 
 <body>
@@ -158,18 +160,29 @@
                     using the map below.
                 </p>
 
-                <div class="map-placeholder">
-
-                    <p>
-                        Map Location Placeholder
-                    </p>
-
+                <div class="map-container">
+                    <div id="foundationMap"
+                        role="application"
+                        aria-label="Interactive map showing 9 Hopkins Street, Salt River">
+                    </div>
                 </div>
+
+                <p class="map-address">
+                    <strong>Address:</strong>
+                    9 Hopkins Street, Salt River, Cape Town, 7925, Western Cape
+                </p>
+
+                <a
+                    href="https://www.openstreetmap.org/?mlat=-33.93136&mlon=18.45798#map=17/-33.93136/18.45798"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn primary-btn">
+                    View Larger Map
+                </a>
 
             </div>
 
         </section>
-
 
         <!-- Call To Action -->
         <section class="call-to-action">
@@ -216,6 +229,9 @@
         </div>
 
     </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        defer></script>
 
     <script src="js/script.js" defer></script>
 

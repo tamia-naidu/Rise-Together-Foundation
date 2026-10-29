@@ -313,3 +313,52 @@ if (contactForm) {
     });
 }
 
+/* =====================================================
+   7. INTERACTIVE CONTACT MAP
+   Leaflet + OpenStreetMap
+===================================================== */
+
+const mapElement = document.getElementById("foundationMap");
+
+if (mapElement && typeof L !== "undefined") {
+
+    // Coordinates for 9 Hopkins Street, Salt River.
+    const foundationLocation = [-33.93136, 18.45798];
+
+    // Create the map and choose its initial zoom level.
+    const foundationMap = L.map("foundationMap").setView(
+        foundationLocation,
+        16
+    );
+
+    // Load map tiles from OpenStreetMap.
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution:
+            '&copy; <a href="https://www.openstreetmap.org/copyright">' +
+            'OpenStreetMap</a> contributors'
+    }).addTo(foundationMap);
+
+    // Add a clickable marker at the location.
+    const locationMarker = L.marker(foundationLocation).addTo(
+        foundationMap
+    );
+
+    // Display the address when the marker is clicked.
+    locationMarker.bindPopup(
+        "<strong>Rise Together Foundation</strong><br>" +
+        "9 Hopkins Street<br>" +
+        "Salt River, Cape Town, 7925"
+    );
+
+    // Open the address popup when the map loads.
+    locationMarker.openPopup();
+
+} else if (mapElement) {
+
+    console.error(
+        "The map could not load. Please check that Leaflet " +
+        "is included before script.js."
+    );
+}
+

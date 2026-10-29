@@ -857,7 +857,6 @@ section p {
         0 5px 20px rgba(0, 0, 0, 0.08);
 }
 
-
 /* =========================================================
    22. LISTS
 ========================================================= */
@@ -871,7 +870,6 @@ section ul {
 section li {
     margin-bottom: 10px;
 }
-
 
 /* =========================================================
    23. LINKS
@@ -890,7 +888,6 @@ main a:focus-visible {
     outline: 2px solid #FFC107;
     outline-offset: 3px;
 }
-
 
 /* =========================================================
    24. FOOTER
@@ -946,7 +943,6 @@ footer a:hover {
     }
 }
 
-
 /* =========================================================
    26. MOBILE RESPONSIVE DESIGN
    Breakpoint: 768px
@@ -971,14 +967,12 @@ footer a:hover {
         font-size: 0.95rem;
     }
 
-    /* Hero adjustment */
     .hero {
         min-height: 500px;
 
         padding: 60px 0;
     }
 
-    /* Hero typography adjustment */
     .hero h1 {
         font-size: 2.2rem;
     }
@@ -1015,12 +1009,10 @@ footer a:hover {
         grid-template-columns: 1fr;
     }
 
-    /* Donation cards become one column */
     .donation-options {
         grid-template-columns: 1fr;
     }
 
-    /* Volunteer cards become one column */
     .volunteer-cards {
         grid-template-columns: 1fr;
     }
@@ -1041,15 +1033,12 @@ footer a:hover {
     }
 }
 
-
 /* =========================================================
    27. SMALL MOBILE DEVICES
    Breakpoint: 480px
 ========================================================= */
 
 @media (max-width: 480px) {
-
-    /* Container adjustment */
     .container {
         width: 92%;
     }
@@ -1069,7 +1058,6 @@ footer a:hover {
         padding: 6px 4px;
     }
 
-    /* Hero typography */
     .hero h1 {
         font-size: 1.9rem;
     }
@@ -1083,12 +1071,10 @@ footer a:hover {
         font-size: 1.9rem;
     }
 
-    /* Section spacing */
     section {
         padding: 45px 0;
     }
 
-    /* Buttons become full width */
     .btn {
         display: block;
         width: 100%;
@@ -1096,7 +1082,6 @@ footer a:hover {
         text-align: center;
     }
 
-    /* Programme images */
     /* Form padding */
     .contact-form,
     .enquiry-form,
@@ -1110,7 +1095,6 @@ footer a:hover {
 /* =====================================================
    PART 3 - JAVASCRIPT FEATURE STYLING
 ===================================================== */
-
 
 /* =====================================================
    GALLERY SEARCH
@@ -1158,7 +1142,6 @@ footer a:hover {
 .gallery-item[hidden] {
     display: none;
 }
-
 
 /* Image lightbox */
 
@@ -1228,7 +1211,6 @@ footer a:hover {
         right: 10px;
     }
 }
-
 
 /* =====================================================
    FAQ SECTION 
@@ -1319,5 +1301,59 @@ footer a:hover {
 
     .faq-section .faq-answer {
         padding: 16px;
+    }
+}
+
+/* =====================================================
+   INTERACTIVE LEAFLET MAP
+===================================================== */
+
+.map-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 8px;
+
+    background-color: #ffffff;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+#foundationMap {
+    width: 100%;
+    height: 400px;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.map-address {
+    max-width: 900px;
+    margin: 15px auto;
+    text-align: center;
+    color: #1E3A5F;
+}
+
+/* Tablet layout */
+@media (max-width: 768px) {
+    .map-container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    #foundationMap {
+        height: 320px;
+    }
+}
+
+/* Small mobile layout */
+@media (max-width: 480px) {
+    #foundationMap {
+        height: 260px;
+    }
+
+    .map-address {
+        font-size: 0.95rem;
     }
 }
