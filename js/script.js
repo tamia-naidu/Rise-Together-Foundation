@@ -127,27 +127,37 @@ if (galleryImages.length > 0) {
 }
 
 
+
 /* =====================================================
-   3. FAQ ACCORDION
+   3. FAQ ACCORDION - ABOUT PAGE
 ===================================================== */
 
 const faqQuestions = document.querySelectorAll(".faq-question");
 
 faqQuestions.forEach(function (question) {
-    question.setAttribute("aria-expanded", "false");
 
-    question.addEventListener("click", function () {
-        const answer = question.nextElementSibling;
-        const isOpen = question.getAttribute("aria-expanded") === "true";
+    const answer = question.nextElementSibling;
 
-        question.setAttribute("aria-expanded", String(!isOpen));
+    if (answer && answer.classList.contains("faq-answer")) {
 
-        if (answer && answer.classList.contains("faq-answer")) {
+        question.setAttribute("aria-expanded", "false");
+        answer.hidden = true;
+
+        question.addEventListener("click", function () {
+
+            const isOpen =
+                question.getAttribute("aria-expanded") === "true";
+
             answer.hidden = isOpen;
-        }
-    });
-});
 
+            question.setAttribute(
+                "aria-expanded",
+                String(!isOpen)
+            );
+
+        });
+    }
+});
 
 /* =====================================================
    4. FORM VALIDATION AND RESPONSE
@@ -302,3 +312,4 @@ if (contactForm) {
             "&body=" + body;
     });
 }
+
