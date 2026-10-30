@@ -81,12 +81,15 @@ Rise Together Foundation
 |   |-- Food Support
 |   |-- Education Support
 |   |-- Community Outreach
+|   |-- Emergency Relief
 |
 |-- Donate
 |
 |-- Volunteer
 |
 |-- Gallery
+|
+|-- Enquiry
 |
 |-- Contact
 
@@ -160,8 +163,26 @@ CSS styling will be developed in Part 2 and JavaScript functionality will be dev
 - Added button styling. 
 - Added hover effects. 
 - Improved the visual structure of the website. 
-- Updated GitHub repository. 
+- Updated GitHub repository.
 
+### Part 3 - Enhancing Functionality and SEO
+- Created js/script.js.
+- Connected the external JavaScript file to the website pages.
+- Implemented gallery search and filtering.
+- Added an image lightbox.
+- Added client-side validation for the contact and enquiry form.
+- Added user feedback for invalid and valid form input.
+- Added unique page titles and meta descriptions.
+- Created sitemap.xml.
+- Created robots.txt.
+- Tested the website's JavaScript functionality.
+- Checked links and images.
+- Tested responsive layouts.
+---
+## Deployment
+- Hosting Platform: GitHub Pages
+- Published URL: https://tamia-naidu.github.io/Rise-Together-Foundation/
+- Deployment Date: 28 October 2026
 ---
 ## Evidence of Testing 
 ### Desktop: 
