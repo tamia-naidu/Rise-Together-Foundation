@@ -203,17 +203,22 @@ CSS styling will be developed in Part 2 and JavaScript functionality will be dev
 ## References
 
 - Figma (2026) Figma. [online] Available at: <https://www.figma.com/files/team/1664384276330606849/recents-and-sharing/recently-viewed?fuid=1664384273325431135> 
-[Accessed 16 August 2026].
-- GitHub, 2026. GitHub. [online] Available at: <https://github.com/> [Accessed 19 August 2026]. 
+  [Accessed 16 August 2026].
+- GitHub Docs, 2026. Creating a GitHub Pages site. [online] Available at: <https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site> [Accessed 30 October   2026]. 
+- GitHub, 2026. GitHub. [online] Available at: <https://github.com/> [Accessed 19 August 2026].
+- Google Search Central, 2025. Search Engine Optimization (SEO) Starter Guide. [online] Available at: <https://developers.google.com/search/docs/fundamentals/seo-starter-guide> [Accessed 30 October 2026].
+- Google Search Central, 2026. Build and submit a sitemap. [online] Available at: <https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap> [Accessed 30 October 2026]. 
 - Host Africa South Africa, 2026. How Much Does It Cost to Build a Website in South Africa? [online] Available at: 
 <https://hostafrica.co.za/blog/websites/website-basics/how-much-does-a-website-cost-in-south-africa/> [Accessed 19 August 2026].
-- Material Design, 2026. Understand typography. [online] Available at:<https://m2.material.io/design/typography/understanding-typography.html> 
+- Material Design, 2026. Understand typography. [online] Available at: <https://m2.material.io/design/typography/understanding-typography.html>
+- MDN Web Docs, n.d. Client-side form validation. [online] Available at: <https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation> [Accessed 30 October 2026].
+- MDN Web Docs, n.d. JavaScript. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/JavaScript> [Accessed 30 October 2026]. 
 - Microsoft (2024) Microsoft Word. [online] Available at: <https://www.microsoft.com/en-za/microsoft-365/word> [Accessed 16 August 2026].
 - OpenAI (2026) ChatGPT. Version 5.6. [App]. Available at: <https://chatgpt.com> [Accessed 16 August 2026].
 - Pexels, 2026. Pexels. [online] Available at: <https://www.pexels.com/> [Accessed 19 August 2026]. 
 - Save the Children, 2026. PROTECTING CHILDREN REQUIRES STRONG SAFEGUARDING SYSTEMS AND URGENT ACTION ON THE NATIONAL CHILD PROTECTION REGISTER (NCPR). 
-[online] Available at: <https://www.savethechildren.org.za/news/protecting-children-requires-strong-safeguarding-systems-and-urgent-action-national-child> 
-[Accessed 19 August 2026]. 
+  [online] Available at: <https://www.savethechildren.org.za/news/protecting-children-requires-strong-safeguarding-systems-and-urgent-action-national-child> 
+  [Accessed 19 August 2026]. 
 - Statistics South Africa, 2025. Poverty Trends in South Africa: An examination of absolute poverty between 2006 and 2023. [online] Available at: <https://www.statssa.gov.za/?p=19078> [Accessed 19 August 2026].
 - Visual Studio Code, 2026. Visual Studio Code. [online] Available at: <https://code.visualstudio.com/> [Accessed 19 August 2026].
 - W3Schools, 2026. HTML Responsive Web Design. [online] Available at: <https://www.w3schools.com/html/html_responsive.asp> [Accessed 16 September 2026]. 
